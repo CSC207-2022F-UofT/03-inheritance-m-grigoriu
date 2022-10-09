@@ -12,8 +12,8 @@ public class HandBag extends Bag{
      * Creates a new HandBag with the given color and
      * capacity.
      *
-     * @param color
-     * @param capacity
+     * @param color The color of this HandBag
+     * @param capacity The capacity of this HandBag
      */
     public HandBag(String color, int capacity) {
         /**
@@ -34,5 +34,7 @@ public class HandBag extends Bag{
          *
          * To call a method defined in a parent, you use super.method_name(...)
          */
+
+        super.increaseCapacity(1);
     }
 }
